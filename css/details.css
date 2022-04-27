@@ -1,0 +1,49 @@
+.product-detail .row{
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+.product-detail p{
+    text-align: justify;
+    padding-right: 30px;
+}
+.product-detail .col-md-7{
+    padding-top: 40px;
+}
+header{
+  position:fixed;
+  z-index: 1000;
+}
+h3{
+    font-weight: bold;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #0d1e32; 
+    border-radius: 2px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+.review{
+    padding: 50px;
+}
+.product-detail .button{
+    background-color: white;
+    margin: 10px;
+    border:  1px solid #666;   
+    padding: 10px;
+    font-weight: bold;
+}
+.product-detail .button:hover{
+    background-color: #0d1e32;
+    color: antiquewhite;
+}
+.product-detail .buy-detail th{
+    padding-right: 10px;
+    font-size: medium;
+}
+
+
+

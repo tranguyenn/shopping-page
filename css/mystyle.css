@@ -1,0 +1,136 @@
+:root{
+    --genius-jeans: #0d1e32;
+    --gold: #e2b478;
+    --light-color: #666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+/*header section*/
+header{
+    top:0;
+    left: 0;
+    right:0;
+    background: #fff;
+    padding:0.5rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+    position:fixed;
+    z-index: 1000;
+}
+
+header .navbar a{
+    font-size: 1.7rem;
+    border-radius: .1rem;
+    padding:.5rem 1.5rem;
+    color:var(--genius-jeans);
+    text-decoration: none;
+    
+}
+header .navbar{
+    padding-top: 9px;
+    margin-bottom: 0;
+}
+
+header .icons i,header .icons a{
+    cursor: pointer;  
+    height:4.5rem;
+    line-height: 4.5rem;
+    width:4.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color:black;
+    border-radius: 5%;
+    background: #eee;
+}
+header .icons i:hover, header .icons a:hover{
+    color: var(--gold);
+    background: var(--genius-jeans);
+    transform: rotate(360deg);
+}
+header .navbar a:hover{
+    color: var(--gold);
+    background: var(--genius-jeans);
+}
+/*header section*/
+
+.heading{
+    text-align: center;
+    color:var(--genius-jeans);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
+/*home sections*/
+.home{
+    padding-top: 9rem;
+    text-align: center;
+    color: var(--gold);
+    background-image: url(/image/homev2.jpg);
+    background-size: cover;
+    height: 100%;
+    
+}
+/*end home sections*/
+/*category section*/
+.category .col-md-6{
+    position: relative;
+    display: block;
+}
+.category .image-women,.category .image-men{
+    display: block;
+}
+.category .content-women,.category .content-men{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity:0; 
+    transition: opacity 0.5s;
+    color:var(--gold);
+    font-size: 200%;
+    font-weight: bold;
+    backdrop-filter: blur(3px);
+}
+.category .content-women:hover{
+    opacity: 1;
+}
+.category .content-men:hover{
+    opacity: 1;
+}
+/*end category section*/
+/*product section*/
+.product .col-md-4{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*end product section/
+/*footer*/
+footer{
+    background-color:var(--genius-jeans);
+    padding-left: 30px;
+}
+
+footer  h3{
+    display: block;
+    color:var(--gold);
+
+}
+footer  a, footer p{
+    display: block;
+    color:beige;
+}
+footer a:hover{
+    color:var(--gold)
+}
+
+/*footer*/

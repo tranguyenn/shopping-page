@@ -1,0 +1,167 @@
+<html>
+  <head>
+    <title>Aqua Terra</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/mystyle.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/details.css" />
+  </head>
+  <body>
+    <header>
+      <div class="row">
+        <div class="col-md-7">
+          <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index.html#category">Category</a>
+            <a href="index.html#product">Product</a>
+            <a href="about.html">About</a>
+          </nav>
+        </div>
+        <div class="col-md-5">
+          <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a class="fas fa-shopping-cart"></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="product-detail">
+      <div class="row">
+        <div class="col-md-5">
+          <img class="img-responsive" src="image/omega-seamaster-aqua-terra-150m-detail-l.png" />
+        </div>
+        <div class="col-md-7">
+          <h3>AQUA TERRA 150M</h3>
+          <h3>CO‑AXIAL MASTER CHRONOMETER 34 MM</h3>
+          <hr>
+          <p>Sedna™ gold on leather strap</p>
+          <span>$15.99</span>
+          <hr>
+          <div class="Description">
+            <h1>Description</h1>
+            <p>
+                Encircled by diamonds, the ladies' Seamaster Aqua Terra is the true definition of elegance.
+
+                With a symmetrical 34 mm case, this 18K Sedna™ gold model features a white pearled mother-of-pearl dial with a date window at 6 o'clock and 11 diamond indexes in 18K Sedna™ gold holders.
+                
+                The bezel is diamond-set and the watch is presented on a taupe-brown leather strap. Driven by the OMEGA Co-Axial Master Chronometer calibre 8801, this wristwatch is certified at the industry’s highest standard by the Swiss Federal Institute of Metrology (METAS).
+            </p>
+          </div>
+          <hr>
+        <div class="buy-detail" id="buy-details">
+          <form action="">
+            <table>
+              <tr>
+           <th> <label for="quantity">Quantity</label></th>
+            <th><input type="number" id="quantity" min="1" placeholder="1"></th>
+          </tr>
+          <tr>
+           <th><label for="color">Color</label></th>
+           <th>
+           <select name="colors" id="colors" style="max-width: 100%;">
+              <option value="Black">Black</option>
+              <option value="=Pink">Pink</option>
+              <option value="RoseGold">Rose Gold</option>
+            </select>
+          </th>
+          </tr>
+          </table>
+          <button class="button" type="submit">
+            <span>
+            Add to bag
+          </span>
+          </button>
+        </form>
+        </div>
+        </div>
+    </section>
+    <br>
+    <hr>
+      <!--review section-->
+      <section class="review" id="review">
+        <h1>Review</h1>
+        
+        <div class="write-review">
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="firstname" placeholder="Your name..">
+            <label for="review">Review</label>
+             <textarea id="review" name="review" placeholder="Write something.." style="height:200px"></textarea>
+            Rate:
+            <br>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <br>
+            <br>
+            <button type="submit">Send review</button>
+          </form>
+        </div>
+        <br>
+        <hr>
+        <br>
+         <div class="reviews">
+           <div class="review-1">
+            <p>
+              Matilda N.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <p>
+              Great
+            </p>
+           </div>
+           <hr style="padding-left: 7%;padding-right: 7%;">
+           <div class="review-2">
+            <p>
+              Phuc Hong N.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+            <p>
+              Amazing
+            </p>
+           </div> 
+         </div> 
+      </section>
+    <footer>
+      <!-- contact info, follow us -->
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Contact info</h3>
+          <p>12345</p>
+          <p>1234</p>
+          <p>dongho@gmail.com</p>
+          <p>Ho Chi Minh, Viet Nam, Earth</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Follow us</h3>
+          <a>Twitter</a>
+          <a>Facebook</a>
+          <a>Instagram</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+.about-intro p{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 200%;
+    color: #0d1e32;
+    
+}
+.heading{
+    padding-top: 5%;
+    
+}
+.about-content{
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 4%;
+    text-align: justify;
+}
